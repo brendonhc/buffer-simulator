@@ -1,0 +1,84 @@
+Relatórios do Buffer - Algoritmo de Paginação FIFO
+
+
+Base de dados de 10000 imagens
+
+Buffer contendo no máximo 1 imagens ou 0.01% da base de dados, após 100000 consultas, 99.989% não estavam presentes no buffer.
+Buffer contendo no máximo 2 imagens ou 0.02% da base de dados, após 100000 consultas, 99.974% não estavam presentes no buffer.
+Buffer contendo no máximo 10 imagens ou 0.1% da base de dados, após 100000 consultas, 99.919% não estavam presentes no buffer.
+Buffer contendo no máximo 100 imagens ou 1.0% da base de dados, após 100000 consultas, 98.985% não estavam presentes no buffer.
+Buffer contendo no máximo 500 imagens ou 5.0% da base de dados, após 100000 consultas, 95.081% não estavam presentes no buffer.
+Buffer contendo no máximo 1000 imagens ou 10.0% da base de dados, após 100000 consultas, 90.062% não estavam presentes no buffer.
+Buffer contendo no máximo 5000 imagens ou 50.0% da base de dados, após 100000 consultas, 51.77% não estavam presentes no buffer.
+Buffer contendo no máximo 10000 imagens ou 100.0% da base de dados, após 100000 consultas, 10.0% não estavam presentes no buffer.
+
+
+Base de dados de 60000 imagens
+
+Buffer contendo no máximo 1 imagens ou 0.0016666666666666668% da base de dados, após 100000 consultas, 99.998% não estavam presentes no buffer.
+Buffer contendo no máximo 2 imagens ou 0.0033333333333333335% da base de dados, após 100000 consultas, 99.997% não estavam presentes no buffer.
+Buffer contendo no máximo 10 imagens ou 0.016666666666666666% da base de dados, após 100000 consultas, 99.986% não estavam presentes no buffer.
+Buffer contendo no máximo 100 imagens ou 0.16666666666666666% da base de dados, após 100000 consultas, 99.825% não estavam presentes no buffer.
+Buffer contendo no máximo 500 imagens ou 0.8333333333333334% da base de dados, após 100000 consultas, 99.142% não estavam presentes no buffer.
+Buffer contendo no máximo 1000 imagens ou 1.6666666666666667% da base de dados, após 100000 consultas, 98.347% não estavam presentes no buffer.
+Buffer contendo no máximo 5000 imagens ou 8.333333333333334% da base de dados, após 100000 consultas, 91.89% não estavam presentes no buffer.
+Buffer contendo no máximo 10000 imagens ou 16.666666666666668% da base de dados, após 100000 consultas, 84.153% não estavam presentes no buffer.
+
+
+Buffer contendo no máximo 6 imagens ou 0.01% da base de dados, após 100000 consultas, 99.996% não estavam presentes no buffer.
+Buffer contendo no máximo 60 imagens ou 0.1% da base de dados, após 100000 consultas, 99.926% não estavam presentes no buffer.
+Buffer contendo no máximo 600 imagens ou 1.0% da base de dados, após 100000 consultas, 99.034% não estavam presentes no buffer.
+Buffer contendo no máximo 6000 imagens ou 10.0% da base de dados, após 100000 consultas, 90.432% não estavam presentes no buffer.
+Buffer contendo no máximo 60000 imagens ou 100.0% da base de dados, após 100000 consultas, 48.836% não estavam presentes no buffer.
+
+
+---------------------------------------------
+Precisão:  0.0001
+
+Buscas:  100000
+Colisões no buffer:  99990
+Frequência de colisão no buffer:  0.9999
+
+Tamanho do buffer:  6
+Tamanho da database:  60000
+Tamanho do buffer / Tamanho da database:  0.0001
+---------------------------------------------
+Precisão:  0.00107
+
+Buscas:  100000
+Colisões no buffer:  99893
+Frequência de colisão no buffer:  0.99893
+
+Tamanho do buffer:  60
+Tamanho da database:  60000
+Tamanho do buffer / Tamanho da database:  0.001
+---------------------------------------------
+Precisão:  0.00976
+
+Buscas:  100000
+Colisões no buffer:  99024
+Frequência de colisão no buffer:  0.99024
+
+Tamanho do buffer:  600
+Tamanho da database:  60000
+Tamanho do buffer / Tamanho da database:  0.01
+---------------------------------------------
+Precisão:  0.0978
+
+Buscas:  100000
+Colisões no buffer:  90220
+Frequência de colisão no buffer:  0.9022
+
+Tamanho do buffer:  6000
+Tamanho da database:  60000
+Tamanho do buffer / Tamanho da database:  0.1
+---------------------------------------------
+Precisão:  0.51325
+
+Buscas:  100000
+Colisões no buffer:  48675
+Frequência de colisão no buffer:  0.48675
+
+Tamanho do buffer:  60000
+Tamanho da database:  60000
+Tamanho do buffer / Tamanho da database:  1.0
